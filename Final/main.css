@@ -1,0 +1,78 @@
+/* the styles for the HTML elements */
+html, body, header, header p, ul, header h1, main, h1, h2, p, label, be, img {
+	margin: 0;
+	padding: 0;
+}
+html {
+    background-color: #C7F6C7;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 760px;
+    margin: 0 auto;
+    padding: 0 2em;
+    background-color: blue;
+    border: 1px solid black;
+}
+header {
+    border-bottom: 2px solid black;
+    margin: .5em 0 1em;
+}
+header p {
+	font-size: 175%;
+	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+}
+header h1 {
+    color: black;
+	text-align: center;
+}
+main {
+    margin-bottom: 1em;
+}
+h1 {
+    font-size: 150%;
+    margin: .5em 0;
+	text-align:center;
+}
+h2 {
+    font-size: 120%;
+    margin: .25em 0 .5em;
+}
+h1, h2 {
+    color: rgb(208, 133, 4);
+}
+p {
+    margin: 0;
+    padding-bottom: .5em;
+	display: inline;
+	text-align: center;
+}
+input[text], select {
+    width: 15em;
+}
+label {
+    width: 5em;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    text-align: right;
+}
+br {
+    clear: left;
+}
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+  align-self: center;
+  align-items:center;
+}
+img {
+	border-radius: 4px;
+	padding: 5px;
+	max-width: 100%;
+    height: auto;
+}
